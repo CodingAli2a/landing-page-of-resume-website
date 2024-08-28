@@ -1,0 +1,163 @@
+@media screen and (max-width:1200px){
+
+}
+
+@media screen and (max-width:992px){
+
+    .home__banner{
+        width: 30rem;
+        height: 30rem;
+        background-position-x: -100px;
+        order: -1;
+    }
+
+    .about__content{
+        flex: 100%;
+    }
+
+    .about__banner{
+        flex: 100%;
+    }
+
+    .about__links{
+        justify-content: center;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .slider{
+        grid-auto-columns: calc(100% / 2);
+    }
+
+    .contact{
+        margin: auto;
+    }
+
+    .contact__map{
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width:768px){
+
+    .menu{
+        display: none;
+    }
+
+
+    .nav__btn-toggle{
+        display: flex;
+    }
+    
+    .home{
+        background-image: none;
+        height: auto;
+    }
+    
+    .home__content{
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .home__banner{
+        margin-bottom: 5rem;
+    }
+
+    .resume__tabs::after,
+    .resume-menu__item::after,
+    .resume-menu__icon{
+        display: none;
+    }
+
+    
+    .resume__tabs{
+        background-color: unset;
+        box-shadow: none;
+        min-height: auto;
+    }
+    
+    .resume-menu{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+    }
+
+
+    .resume-menu__item{
+        border: 2px solid var(--primary-color);
+        text-align: center;
+        border-radius: 2rem;
+        padding: 1rem 3rem;
+        margin: 0;
+    }
+
+    .resume-menu__item--active{
+        background-color: var(--primary-color);
+    }
+
+}
+
+@media screen and (max-width:576px){
+
+
+    .home__caption{
+        text-align: center;
+    }
+
+    .home__banner{
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .home__links{
+        width: 100%;
+    }
+
+    .home__link, .about__link{
+        width: 100%;
+    }
+
+    .nav{
+        padding: 1rem 0;
+    }
+
+}
+
+@media screen and (max-width:524px){
+    .footer__wrapper{
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .footer__media{
+        gap: 1rem;
+    }
+}
+
+
+
+@media screen and (min-width:576px){
+    .mobile-menu{
+        display: none !important;
+    }
+    .mobile-menu-bg{
+        display: none;
+    }
+
+    
+}
+
+
+
+
+@media screen and (min-width:768px){
+    .nav{
+        padding: 3rem 0;
+    }
+}
