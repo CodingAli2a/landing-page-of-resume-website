@@ -991,6 +991,7 @@ main{
 .price-menu__item{
     position: relative;
     padding-right: .5rem;
+    
 }  
 
 .price-menu__item::before{
